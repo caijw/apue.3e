@@ -31,7 +31,7 @@ main(int argc, char *argv[])
 	pid_t	pid;
 	char	*s;
 	int		nzero, ret;
-	int		adj = 0;
+	int		adj = 20;
 
 	setbuf(stdout, NULL);
 #if defined(NZERO)
